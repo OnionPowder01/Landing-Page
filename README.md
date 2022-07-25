@@ -1,2 +1,2 @@
 # Project: Landing Page from The Odin Project
-Click for [Live Previe](https://onionpowder01.github.io/Landing-Page/)
+Click for [Live Preview](https://onionpowder01.github.io/Landing-Page/)

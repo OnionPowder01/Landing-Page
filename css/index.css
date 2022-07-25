@@ -1,22 +1,31 @@
-body {
-    margin-left: 350px;
-    margin-right: 350px;
+
+.same-color1 {
+    margin: -10px;
     background:#1F2937;
+    padding-bottom: 90px;
+   
+
 }
 
 .header {
     display: flex;
+    margin-left: 350px;
+    margin-right: 350px;
     justify-content: space-between;
+    background:#1F2937;
     align-items: center;
 }
 
 .header2 {
+    margin-left: 350px;
+    margin-right: 350px;
     margin-top: 90px;
     display: flex; 
     flex-direction: column; 
     max-height: 410px;
     flex-wrap: wrap;
     justify-content: space-between;  
+    background:#1F2937;
 }
 
 .left {
@@ -54,6 +63,7 @@ body {
 }
 
 .logo {
+    display: flex;
     font-size: 24px;
     font-family:Arial, Helvetica, sans-serif;
     color: #F9FAF8;
@@ -65,7 +75,7 @@ body {
     font-size: 18px;
     font-family:Arial, Helvetica, sans-serif;
     color: #E5E7EB;
-    display:flex;
+    display: flex;
     gap: 15px;
 }
 
@@ -74,7 +84,7 @@ body {
     height: 249px;
     width: 660px;
     margin-left: -130px;
-    background: rgb(104, 104, 104);
+    background: rgb(177, 177, 177);
     font-size: 25px;
     font-family:Arial, Helvetica, sans-serif;
     justify-content: center;
@@ -94,7 +104,60 @@ button {
     max-width: 120px;   
   }
 
-  
+.container {
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    text-align: center;
+    background: white;
+    margin-bottom: 90px;
+    
+}
+
+.info {
+    max-width: 200px;  
+}
+
+.title {
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: black;
+  }
+
+.quote-section {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: auto;
+    margin: -10px;
+    background: #E5E7EB ;
+    margin-top: 90px
+
+}
+
+.quote {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    width: 800px;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style:italic;
+}
+
+.author {
+    font-size: 20px;
+    font-weight: bold;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
 a {
     text-decoration: none;
 
@@ -102,4 +165,13 @@ a {
 
 ul {
     list-style-type: none;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border: 4px solid #3882F6;
+    border-radius: 20px;
+    
+
 }

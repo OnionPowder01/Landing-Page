@@ -38,7 +38,7 @@ body {
 }
 
 .header2 {
-    border: 2px solid red;
+    
     margin-left: 350px;
     margin-right: 350px;
     margin-top: 90px;
@@ -51,14 +51,14 @@ body {
 }
 
 .left {
-    border: 2px solid red;
+    
     display:flex;
     flex-direction: column;
     justify-content: flex-start;
   }
 
 .right {
-    border: 2px solid red;
+    
     display:flex;
     justify-content: flex-end;
 
